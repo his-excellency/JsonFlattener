@@ -5,13 +5,11 @@ import ijson
 import csv
 import sys
 import os
-import flatdict as fd
 import numpy as np
 import requests
 import codecs
 import glob
-from pandas.io.json import json_normalize as jn
-
+#from pandas.io.json import json_normalize as jn
 
 dd={
 	'a':1,
